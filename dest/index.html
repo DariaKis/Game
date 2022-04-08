@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Memo</title>
+
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+        <section class="wrapper">
+            <div class="wrapper__left">
+                <div class="timer">
+                    <div class="timer__border">
+                        <div  class="timer__clock" id="clock">
+                        <p id="minutes" >00</p>
+                            <p>:</p>
+                        <p id="seconds" >00</p>
+                            <p>:</p>
+                        <p id="milliseconds" >00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wrapper__right">
+                <div class="game" id="game">
+                   <div class="game__card" data-name="1">
+                       <img src="../components/img/1.svg" class="front" >
+                       <img src="../components/img/cover.svg" class="back">
+                   </div>
+                    <div class="game__card" data-name="1">
+                        <img src="../components/img/1.svg" class="front" >
+                        <img src="../components/img/cover.svg" class="back">
+                    </div>
+                    <div class="game__card" data-name="2">
+                        <img src="../components/img/2.svg" class="front" >
+                        <img src="../components/img/cover.svg" class="back">
+                    </div>
+                    <div class="game__card" data-name="2">
+                        <img src="../components/img/2.svg" class="front" >
+                        <img src="../components/img/cover.svg" class="back">
+                    </div>
+                    <div class="game__card" data-name="3">
+                        <img src="../components/img/3.svg" class="front" >
+                        <img src="../components/img/cover.svg" class="back">
+                    </div>
+                    <div class="game__card" data-name="3">
+                        <img src="../components/img/3.svg" class="front" >
+                        <img src="../components/img/cover.svg" class="back">
+                    </div>
+                    <div class="game__card" data-name="4">
+                        <img src="../components/img/4.svg" class="front" >
+                        <img src="../components/img/cover.svg" class="back">
+                    </div>
+                    <div class="game__card" data-name="4">
+                        <img src="../components/img/4.svg" class="front" >
+                        <img src="../components/img/cover.svg" class="back">
+                    </div>
+                    <div class="game__card" data-name="5">
+                        <img src="../components/img/5.svg" class="front" >
+                        <img src="../components/img/cover.svg" class="back">
+                    </div>
+                    <div class="game__card" data-name="5">
+                        <img src="../components/img/5.svg" class="front" >
+                        <img src="../components/img/cover.svg" class="back">
+                    </div>
+                    <div class="game__card" data-name="6">
+                        <img src="../components/img/6.svg" class="front" >
+                        <img src="../components/img/cover.svg" class="back">
+                    </div>
+                    <div class="game__card" data-name="6">
+                        <img src="../components/img/6.svg" class="front" >
+                        <img src="../components/img/cover.svg" class="back">
+                    </div>
+                </div>
+            </div>
+            <div id="modal" class="modal">
+                <div class="main">
+                    <div id="modal-message" class="message"></div>
+                    <button id="modal-close" class="modal__btn" >Try again!</button>
+                </div>
+            </div>
+
+        </section>
+<script src="./js/index.js"></script>
+</body>
+</html>
